@@ -25,7 +25,7 @@ pipeline:
                         store:
                           spec:
                             connectorRef: connect_to_techwhisperin
-                            repoName: test
+                            repoName: aws-vpc-configuration
                             gitFetchType: Branch
                             branch: main
                             folderPath: ""
@@ -60,7 +60,7 @@ pipeline:
                           store:
                             spec:
                               connectorRef: connect_to_techwhisperin
-                              repoName: test
+                              repoName: aws-vpc-configuration
                               gitFetchType: Branch
                               branch: main
                               folderPath: ""
@@ -94,7 +94,7 @@ pipeline:
                           store:
                             spec:
                               connectorRef: connect_to_techwhisperin
-                              repoName: test
+                              repoName: aws-vpc-configuration
                               gitFetchType: Branch
                               branch: main
                               folderPath: ""
