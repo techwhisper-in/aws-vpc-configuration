@@ -41,7 +41,6 @@ resource "aws_route_table_association" "public_subnet_association" {
   depends_on     = [aws_route_table.public_route_table, aws_subnet.public_subnet]
 }
 
-
 resource "aws_route_table" "private_route_table" {
   vpc_id = aws_vpc.my_vpc.id
   #route {
@@ -68,5 +67,3 @@ resource "aws_route_table_association" "private_subnet_association" {
   route_table_id = aws_route_table.private_route_table.id
   depends_on     = [aws_route_table.private_route_table, aws_subnet.private_subnet]
 }
-
-
