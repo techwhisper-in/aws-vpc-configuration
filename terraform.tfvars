@@ -1,7 +1,7 @@
 #VPC configurations
 vpc_cidr_block           = "10.0.0.0/16"
-vpc_enable_dns_support   = false
-vpc_enable_dns_hostnames = false
+vpc_enable_dns_support   = true
+vpc_enable_dns_hostnames = true
 vpc_tags                 = { Name = "my_vpc", purpose = "test" }
 
 #Public Subnet configurations
