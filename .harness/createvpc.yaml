@@ -37,6 +37,7 @@ pipeline:
                           region: ap-south-1
                           roleArn: ""
                       secretManagerRef: harnessSecretManager
+                      skipRefreshCommand: true
                   timeout: 10m
         tags: {}
     - stage:
