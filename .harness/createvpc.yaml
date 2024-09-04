@@ -33,7 +33,7 @@ pipeline:
                       providerCredential:
                         type: Aws
                         spec:
-                          connectorRef: connectawsaccount
+                          connectorRef: <+input>
                           region: ap-south-1
                           roleArn: ""
                       secretManagerRef: harnessSecretManager
